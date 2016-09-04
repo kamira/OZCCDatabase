@@ -66,11 +66,42 @@ public class Loading extends Activity {
                      + " no           int, "
                      + " star         int, "
                      + " color        int, "
-                     + " ATK          int, "
-                     + " MATK         int, "
-                     + " HP           int, "
-                     + " DEF          int, "
-                     + " MDEF         int);");
+                    // 1 Star
+                    + " ATK_1        int, "
+                    + " MATK_1       int, "
+                    + " HP_1         int, "
+                    + " DEF_1        int, "
+                    + " MDEF_1       int, "
+                    // 2 Star
+                    + " ATK_2        int, "
+                    + " MATK_2       int, "
+                    + " HP_2         int, "
+                    + " DEF_2        int, "
+                    + " MDEF_2       int, "
+                    // 3 Star
+                    + " ATK_3        int, "
+                    + " MATK_3       int, "
+                    + " HP_3         int, "
+                    + " DEF_3        int, "
+                    + " MDEF_3       int, "
+                    // 4 Star
+                    + " ATK_4        int, "
+                    + " MATK_4       int, "
+                    + " HP_4         int, "
+                    + " DEF_4        int, "
+                    + " MDEF_4       int, "
+                    // 5 Star
+                    + " ATK_5        int, "
+                    + " MATK_5       int, "
+                    + " HP_5         int, "
+                    + " DEF_5        int, "
+                    + " MDEF_5       int, "
+                    // 6 Star
+                    + " ATK_6        int, "
+                    + " MATK_6       int, "
+                    + " HP_6         int, "
+                    + " DEF_6        int, "
+                    + " MDEF_6       int);");
             // 符文圖片資料
             db.execSQL("CREATE table if not exists runespics ("
                      + " no           int, "
